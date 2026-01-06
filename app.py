@@ -30,7 +30,7 @@ load_dotenv()
 # Streamlit Page Configuration
 # ==================================================
 st.set_page_config(
-    page_title="AnalystFlow_AI",
+    page_title="AnalystFlow-AI",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -102,7 +102,7 @@ def dataset_loaded():
 st.markdown(
     """
     <div style="text-align:center; padding: 10px 0 30px 0;">
-        <h1>📊 AnalystFlow AI</h1>
+        <h1>📊 AnalystFlow-AI</h1>
         <p style="font-size:16px; color:#555;">
             Automated Dataset Understanding, Cleaning, Visualization & Data Readiness Reporting
         </p>
