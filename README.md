@@ -85,9 +85,41 @@ Visual comparison using:
   * CSV
   * Excel
 * Rule-based **data readiness summary**
-* Optional **AI-generated professional report** using **Groq LLM**
+* Complete operation history log
 
 ---
+
+## 🤖 AI-Generated Data Readiness Explanation (Optional)
+
+AnalystFlow-AI follows a **deterministic-first, AI-second architecture**.
+
+### 🔘 When AI is ENABLED
+
+* Groq LLM generates a **professional data readiness report**
+* Uses:
+
+  * Raw dataset statistics
+  * Cleaned dataset statistics
+  * Actual preprocessing steps performed
+* Output explains:
+
+  1. How data quality improved
+  2. Why each preprocessing step is best practice
+  3. Why the dataset is ML-ready
+
+### 🔘 When AI is DISABLED
+
+* No API calls are made
+* Rule-based validation alone confirms dataset readiness
+
+### 🧠 Why This Design Matters
+
+* Prevents unnecessary API costs
+* Avoids AI dependency for correctness
+* Ensures reproducibility & reliability
+* Graceful fallback if AI is unavailable
+
+> AI is used **only for explanation**, not decision-making.
 
 ## 🧠 Why AnalystFlow-AI?
 
@@ -222,5 +254,6 @@ Focused on **Data Science, ML & AI Projects**
 ## ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to fork & extend it!
+
 
 
