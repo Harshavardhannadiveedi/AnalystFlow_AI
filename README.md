@@ -165,7 +165,7 @@ AnalystFlow-AI/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AnalystFlow-AI.git
+git clone https://github.com/Harshavardhannadiveedi/AnalystFlow-AI.git
 cd AnalystFlow-AI
 ```
 
@@ -254,6 +254,7 @@ Focused on **Data Science, ML & AI Projects**
 ## ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to fork & extend it!
+
 
 
 
