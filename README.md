@@ -243,12 +243,18 @@ http://localhost:8501
 
 ---
 
+
 ## 👨‍💻 Author
 
 **Harshavardhan Nadiveedi**
 B.Tech AIML Student
 Focused on **Data Science, ML & AI Projects**
 
+---
+---
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ---
 
 ## ⭐ If you like this project
